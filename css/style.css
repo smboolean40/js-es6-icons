@@ -1,0 +1,56 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Common */
+body {
+	font-family: 'Rubik', sans-serif;
+	height: 100vh;
+}
+
+/* Header */
+
+.logo {
+	height: 70px;
+	line-height: 70px;
+	font-family: 'Acme', sans-serif;
+	color: rgb(41, 177, 221);
+	font-size: 40px;
+	padding: 0 20px;
+}
+.search {
+	background: rgb(41, 177, 221);
+	color: #fff;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+
+/* Main */
+main {
+	padding: 20px;
+	background-color: lightgray;
+	height: calc(100% - 140px);
+	overflow-y: auto;
+}
+
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.icon {
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #888888;
+	width: calc(100% / 5 - 30px);
+	margin: 15px;
+	text-align: center;
+}
+.icon i {
+	font-size: 30px;
+}
